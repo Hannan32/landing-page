@@ -44,3 +44,35 @@ font-size:large;
     max-width: 100%;
     height:auto;
 }
+/* second quarter styling */
+
+
+h2{
+    text-align:center;
+}
+.s-flex{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+.container{
+    border:2px solid #1f2937;
+    border-radius:20px;
+    width:150px;
+    height:150px;
+
+    
+}
+
+.s-flex div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.s-flex p{
+    text-align:center;
+    max-width: 130px;
+}
+
