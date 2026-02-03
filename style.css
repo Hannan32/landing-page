@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    flex-direction:column;
+    font-family: 'Roboto' sans-serif;
+    height:100hv;
+}
+
+.header{
+    background-color: #1f2937;
+
+    
+}
+
+ul{
+    display:flex;
+    list-style-type:none;
+    justify-content:flex-end;
+    gap:15px;
+
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#logo{
+margin-right:auto;
+font-weight:bold;
+color:white;
+font-size:large;
+}
