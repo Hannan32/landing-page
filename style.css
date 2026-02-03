@@ -31,3 +31,16 @@ font-weight:bold;
 color:white;
 font-size:large;
 }
+/* first quarter styling  */
+
+.f-quarter{
+    display:flex;
+}
+.half{
+    width:150px;
+    flex-grow:0.5;
+}
+.half img{
+    max-width: 100%;
+    height:auto;
+}
