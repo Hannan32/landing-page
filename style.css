@@ -7,6 +7,7 @@ body{
 
 .header{
     background-color: #1f2937;
+    padding:0px 120px;
 
     
 }
@@ -16,6 +17,7 @@ ul{
     list-style-type:none;
     justify-content:flex-end;
     gap:15px;
+    padding-left:0;
 
 
 }
@@ -32,11 +34,16 @@ color:white;
 font-size:large;
 }
 /* first quarter styling  */
+.f-container{
+    background-color: #1f2937;
+}
 
 .f-quarter{
     display:flex;
-    background-color: #1f2937;
     color:white;
+    padding:60px 120px;
+
+
 }
 .half{
     width:150px;
