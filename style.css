@@ -42,6 +42,8 @@ font-size:large;
     display:flex;
     color:white;
     padding:60px 120px;
+    gap:30px;
+    align-items:flex-start
 
 
 }
@@ -49,9 +51,33 @@ font-size:large;
     width:150px;
     flex-grow:0.5;
 }
+.half p{
+    font-size:30px;
+    font-weight: 900;
+    margin:0;
+    padding:0;
+}
+button{
+    background-color:#3882f6;
+    color:white;
+    padding:5px 20px;
+    font-size: small;
+}
+.f-quarter.half{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+
+}
 .half img{
     max-width: 100%;
     height:auto;
+}
+.half button{
+    border:#3882f6;
+    border-radius: 4px;
+    margin:1em 0;
+
 }
 
 /* second quarter styling */
