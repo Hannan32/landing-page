@@ -118,13 +118,23 @@ h2{
     display:flex;
     flex-direction:column;
     background-color:#e5e7eb;
+    padding:60px 100px;
+    gap:5px;
+    
+    
 }
 .t-quarter p{
     margin:0 20px;
+    font-style:italic;
+    color:rgb(87, 85, 85);
+    font-size:large;
 }
 #bold{
     align-self:flex-end;
     font-weight:bold;
+    font-style:normal;
+    font-size:small;
+    color:black;
 }
 /* fourth quarter styling */
 #box{
