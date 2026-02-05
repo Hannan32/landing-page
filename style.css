@@ -18,6 +18,7 @@ ul{
     justify-content:flex-end;
     gap:15px;
     padding-left:0;
+    font-size:0.7em;
 
 
 }
@@ -28,10 +29,10 @@ a{
 }
 
 #logo{
-margin-right:auto;
-font-weight:bold;
-color:white;
-font-size:large;
+    margin-right:auto;
+    font-weight:bold;
+    color:white;
+    font-size:1.5em;
 }
 /* first quarter styling  */
 .f-container{
